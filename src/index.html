@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Neucha&family=Sriracha&display=swap"
       rel="stylesheet"
     />
     <link href="./output.css" rel="stylesheet" />
@@ -14,22 +14,36 @@
     <title>Emma's Pet Care</title>
   </head>
   <body class="">
-    <div class="flex flex-col items-center">
-      <div class="flex w-full items-center">
-        <hr class="grow border-t-2 border-black">
-        <img
-          class="h-28 w-auto"
-          src="./assets/logo.jpg"
-          alt=""
-        />
-        <hr class="grow border-t-2 border-black">
+    <header class="flex flex-col items-center relative">
+      <div class="flex w-full items-center justify bg-accentColor">
+        <img class="h-16 w-auto z-10" src="./assets/logo.png" alt="" />
+        <!-- <img class="h-28 w-auto absolute left-[160px] scale-[1.15]" src="./assets//svgs/blob.svg" alt="" /> -->
+        <h1 class="text-center text-2xl font-kaushan text-secondaryColor mx-4">
+          Emma's Pet Care
+        </h1>
       </div>
-      <h1 class="text-center text-3xl font-kaushan mx-4">Emma's Pet Care</h1>
-      <!-- <div class="flex w-full items-center">
-        <hr class="grow border-t-2 border-gray-300">
-        <h1 class="text-center text-3xl font-kaushan mx-4">Emma's Pet Care</h1>
-        <hr class="grow border-t-2 border-gray-300">
-      </div> -->
-    </div>
+    </header>
+    <!-- <img class="" src="./assets//banner.jpg" alt="" /> -->
+
+    <section class="flex flex-col bg-[url('./sabo1.jpg')] bg-cover py-6 m-4 ">
+
+      <div
+        class="bg-secondaryColor h-[30px] w-1/2 flex items-center justify-center"
+      >
+        <h3 class="text-white text-xl font-sriacha">What I Do</h3>
+      </div>
+
+      <p class="text-[12px] w-3/4 mt-4 ml-4 font-neucha">
+        As a college student passionate about helping the dog community, I offer
+        a caring and practical dog washing service tailored for busy pet owners.
+        While I'm not a licensed groomer, I specialize in maintaining your dog’s
+        cleanliness and comfort, especially when you're waiting for a
+        professional haircut appointment. I provide convenient pickup and
+        drop-off services to accommodate your schedule, ensuring a hassle-free
+        experience for both you and your pet. Let me help keep your furry friend
+        happy and clean!
+      </p>
+
+    </section>
   </body>
 </html>
