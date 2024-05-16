@@ -25,3 +25,31 @@
       translate: none;
     }
 }
+
+.slide-right-hr {
+  animation: slide-right-hr;
+  animation-duration: 3000ms;
+}
+
+@keyframes slide-right-hr {
+  0% {
+    translate: -280px;
+  } 
+  100% {
+    translate: none;
+  }
+}
+
+.slide-left-hr {
+  animation: slide-left-hr;
+  animation-duration: 3000ms;
+}
+
+@keyframes slide-left-hr {
+  0% {
+    translate: 280px;
+  } 
+  100% {
+    translate: none;
+  }
+}
