@@ -10,7 +10,8 @@ module.exports = {
         kalam: ["Kalam", 'cursive'],
         contrail: ["Contrail-One", 'sans-serif'],
         poetsen: ["Poetsen One", 'sans-serif'],
-        dosis: ["Dosis", 'sans-serif']
+        dosis: ["Dosis", 'sans-serif'],
+        freeman: ['freeman', 'sans-serif']
       },
       colors: {
         primaryColor: "#859D82",
