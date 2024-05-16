@@ -1,0 +1,27 @@
+.slide-right {
+  animation-name: slide-right;
+  animation-duration: 1500ms;
+}
+
+@keyframes slide-right {
+    0% {
+      translate: -280px
+    }
+    100% {
+      translate: none;
+    }
+}
+
+.slide-left {
+  animation-name: slide-left;
+  animation-duration: 1500ms;
+}
+
+@keyframes slide-left {
+    0% {
+      translate: 280px
+    }
+    100% {
+      translate: none;
+    }
+}
