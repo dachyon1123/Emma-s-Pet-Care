@@ -1087,6 +1087,10 @@ html {
   margin-left: 4rem;
 }
 
+.ml-24 {
+  margin-left: 6rem;
+}
+
 .block {
   display: block;
 }

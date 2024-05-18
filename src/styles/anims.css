@@ -28,7 +28,7 @@
 
 .slide-right-hr {
   animation: slide-right-hr;
-  animation-duration: 3000ms;
+  animation-duration: 2200ms;
 }
 
 @keyframes slide-right-hr {
@@ -42,7 +42,7 @@
 
 .slide-left-hr {
   animation: slide-left-hr;
-  animation-duration: 3000ms;
+  animation-duration: 2200ms;
 }
 
 @keyframes slide-left-hr {
