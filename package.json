@@ -14,11 +14,11 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "daisyui": "^4.11.1",
-    "nodemon": "^3.1.0",
-    "tailwindcss": "^3.4.3"
+    "nodemon": "^3.1.0"
   }
 }
