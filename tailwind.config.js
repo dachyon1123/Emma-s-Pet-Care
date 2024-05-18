@@ -11,7 +11,9 @@ module.exports = {
         contrail: ["Contrail-One", 'sans-serif'],
         poetsen: ["Poetsen One", 'sans-serif'],
         dosis: ["Dosis", 'sans-serif'],
-        freeman: ['freeman', 'sans-serif']
+        freeman: ['freeman', 'sans-serif'],
+        girassol: ['girassol', 'sans-serif'],
+        garamond: ['EB Garamond', 'serif']
       },
       colors: {
         primaryColor: "#859D82",
@@ -24,5 +26,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
 };

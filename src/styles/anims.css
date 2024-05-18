@@ -53,3 +53,32 @@
     translate: none;
   }
 }
+
+.open-drawer {
+  animation: drawer-open;
+  animation-duration: 1000ms;
+}
+
+@keyframes drawer-open {
+  0% {
+    translate: 280px
+  }
+  100% {
+    translate: none
+  }
+}
+
+.close-drawer {
+  animation: drawer-close;
+  animation-duration: 2000ms;
+  
+}
+
+@keyframes drawer-close {
+  50% {
+    translate: 280px;
+  }
+  100% {
+    display: hidden;
+  }
+}
