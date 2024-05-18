@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-    href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Girassol&family=Freeman&family=Dosis:wght@200..800&family=Poetsen+One&family=Contrail+One&family=Kalam:wght@300;400;700&family=Neucha&family=Sriracha&family=Kaushan+Script&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Girassol&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Freeman&family=Dosis:wght@200..800&family=Poetsen+One&family=Contrail+One&family=Kalam:wght@300;400;700&family=Neucha&family=Sriracha&family=Kaushan+Script&display=swap"
     rel="stylesheet" />
 <link href="./output.css" rel="stylesheet" />
 <link rel="stylesheet" href="./styles/main.css" />
@@ -13,16 +13,26 @@
 <title>Emma's Pet Care</title>
 
 <body>
-    <header class="flex flex-col items-center relative py-[4px]">
-        <div class="flex w-full items-center justify bg-white">
-            <img class="h-12 w-auto" src="./assets/logov2 (1).jpg" alt="" />
-            <h1 class="text-center text-2xl font-freeman mx-4">
-                EMMA'S PET CARE
+    <header class="flex flex-col items-center py-[4px] fixed z-[999] pt-0 mt-0 w-full">
+        <div class="flex w-full items-center bg-white py-4">
+            <img class="h-12 w-auto ml-2" src="./assets/logov2 (1).jpg" alt="" />
+            <h1 class="text-center text-xl font-garamond italic mx-4 sticky font-bold">
+                <a href="/">EMMA'S PET CARE</a>
             </h1>
+            <button class="hamburger ml-10"><img src="./assets/svgs/hamburger.svg" alt=""></button>
+            <nav class="navDrawer hidden fixed top-0 right-0 w-3/5 h-screen pr-4 pt-4 bg-white">
+                <button class="exit block ml-auto"><img src="./assets/svgs/exit.svg" alt=""></button>
+                <ul class="w-full flex flex-col items-end mt-14">
+                    <li class="text-2xl mt-4">About Me</li>
+                    <li class="text-2xl text-right mt-4 w-full hover:bg-slate-400"><a href="/rates">Rates</a></li>
+                    <li class="text-2xl mt-4">Gallery</li>
+                </ul>
+            </nav>
+        </div>
         </div>
     </header>
 
-    <section class="bg-accentColor pt-8">
+    <section class="bg-accentColor pt-28">
         <hr class="slide-left-hr bg-secondaryColor w-1/2 h-1 mx-auto mb-4">
         <h1 class="text-center text-3xl font-girassol">Dog Grooming Rates</h1>
         <hr class="slide-right-hr bg-secondaryColor w-3/4 h-1 mx-auto mt-3 mb-4">
@@ -78,6 +88,7 @@
 
     <img class="pt-10 bg-accentColor" src="./assets/banner.jpg" alt="">
 
+    <script src="../scripts/index.js"></script>
 </body>
 
 </html>
