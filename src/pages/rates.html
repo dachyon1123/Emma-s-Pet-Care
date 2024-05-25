@@ -13,35 +13,37 @@
 <title>Emma's Pet Care</title>
 
 <body>
-    <header class="flex flex-col items-center py-[4px] fixed z-[999] pt-0 mt-0 w-full">
-        <div class="flex w-full items-center bg-white py-4">
-            <img class="h-12 w-auto ml-2" src="./assets/logov2 (1).jpg" alt="" />
-            <h1 class="text-center text-xl font-garamond italic mx-4 sticky font-bold">
-                <a href="/">EMMA'S PET CARE</a>
-            </h1>
-            <button class="hamburger ml-10"><img src="./assets/svgs/hamburger.svg" alt=""></button>
-            <nav class="navDrawer hidden fixed top-0 right-0 w-3/5 h-screen pr-4 pt-4 bg-white">
-                <button class="exit block ml-auto"><img src="./assets/svgs/exit.svg" alt=""></button>
-                <ul class="w-full flex flex-col items-end mt-14">
-                    <li class="text-2xl mt-4">About Me</li>
-                    <li class="text-2xl text-right mt-4 w-full hover:bg-slate-400"><a href="/rates">Rates</a></li>
-                    <li class="text-2xl mt-4">Gallery</li>
-                </ul>
-            </nav>
+    <header class="fixed w-full z-[999] mt-0 ">
+        <div class="flex gap-2 items-center justify-between bg-white py-4">
+          <img class="h-12 w-auto ml-2" src="../assets/logov2 (1).jpg" alt="" />
+          <h1 class="text-xl font-garamond italic sticky font-bold grow">
+            <a href="/">EMMA'S PET CARE</a>
+          </h1>
+          <button class="hamburger mr-4"><img src="../assets/svgs/hamburger.svg" alt=""></button>
+          <nav class="navDrawer hidden fixed top-0 right-0 w-3/5 h-screen pr-4 pt-4 bg-white">
+            <button class="exit block ml-auto"><img src="../assets/svgs/exit.svg" alt=""></button>
+            <ul class="w-full flex flex-col items-end mt-14 pl-4">
+              <li class="text-2xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
+                  href="/rates">Home</a></li>
+              <li class="text-2xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
+                  href="/rates">Rates</a></li>
+              <li class="text-2xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
+                  href="/rates">Gallery</a></li>
+            </ul>
+          </nav>
         </div>
-        </div>
-    </header>
+      </header>
 
     <section class="bg-accentColor pt-28">
-        <hr class="slide-left-hr bg-secondaryColor w-1/2 h-1 mx-auto mb-4">
-        <h1 class="text-center text-3xl font-girassol">Dog Grooming Rates</h1>
-        <hr class="slide-right-hr bg-secondaryColor w-3/4 h-1 mx-auto mt-3 mb-4">
+        <hr class="bg-secondaryColor w-1/2 h-1 mx-auto mb-4">
+        <h1 class="text-center text-3xl sm:text-4xl font-girassol">Dog Grooming Rates</h1>
+        <hr class=" bg-secondaryColor w-3/4 h-1 mx-auto mt-3 mb-4">
         <div class="border-secondaryColor border-b-2 rounded-lg mt-2 mx-2 relative pl-2">
-            <h1 class="text-2xl font-girassol font-bold mt-2 ml-2">Express Bath</h1>
-            <p class="ml-2 text-xl font-neucha mb-3">Bath + Ear Cleaning + Towel/Air Dry</p>
+            <h1 class="text-2xl sm:text-3xl font-girassol font-bold mt-2 ml-2">Express Bath</h1>
+            <p class="ml-2 text-xl sm:text-2xl font-neucha mb-3">Bath + Ear Cleaning + Towel/Air Dry</p>
 
 
-            <ul>
+            <ul class="sm:text-[24px]">
                 <li class="flex ml-2 font-sriacha">
                     <p class="basis-1/3">Under 30 LBS.</p>
                     <p>$45</p>
@@ -67,23 +69,21 @@
                     <p class="basis-1/2">$145 + $2 per extra pound</p>
                 </li>
             </ul>
-            <h3 class="ml-2 mb-2 text-sm font-poetsen mt-3">**Appointments Necessary**</h3>
+            <h3 class="ml-2 mb-2 text-sm sm:text-[16px] font-poetsen mt-3">**Appointments Necessary**</h3>
         </div>
 
 
-        <div class="ml-6 mt-14">
-            <h2 class="font-girassol font-bold text-2xl">Additional Fees:</h2>
-            <ul>
+        <div class="ml-6 mt-10">
+            <h2 class="font-girassol font-bold text-2xl sm:text-3xl sm:mb-4">Additional Fees:</h2>
+            <ul class="sm:text-[20px]">
                 <li><strong>Short Hair:</strong> No fee.</li>
-                <li><strong>Long Hair:</strong> $15 (due to more maintenance and dry time).</li>
+                <li class="mr-2"><strong>Long Hair:</strong> $15 (due to more maintenance and dry time).</li>
                 <li><strong>Extreme Itchy/Dermatitis Skin:</strong> $5 extra for special shampoo.</li>
                 <li><strong>De-matting:</strong> $10 fee (may require multiple sessions).</li>
-                <li><strong>Trimming (paw pads and private areas):</strong> $15 fee.</li>
+                <li class="mr-2"><strong>Trimming (paw pads and private areas):</strong> $15 fee.</li>
             </ul>
         </div>
-        <button
-            class="h-min w-min text-wrap text-sm bg-secondaryColor text-white p-2 ml-6 mt-4 hover:bg-[#e08c51] rounded-md "><a
-                href="https://calendly.com/ihavethisherejustcause">Book an Appointment</a></button>
+        <button class="h-min w-min text-wrap text-sm sm:text-[16px] bg-secondaryColor text-white p-2 ml-6 mt-4 hover:bg-[#e08c51] rounded-md "><a href="https://calendly.com/ihavethisherejustcause">Book an Appointment</a></button>
     </section>
 
     <img class="pt-10 bg-accentColor" src="./assets/banner.jpg" alt="">

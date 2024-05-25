@@ -22,7 +22,7 @@ module.exports = {
         white: "white",
       },
       backgroundImage: {
-        "sabo-image": "url('./assets/kona1.jpg')",
+        "sabo-image": "url('./assets/dogphoto.jpg')",
       },
     },
   },
