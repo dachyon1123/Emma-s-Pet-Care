@@ -5,12 +5,22 @@
 
 @keyframes slide-right {
     0% {
-      translate: -280px
+      translate: -280px;
     }
     100% {
       translate: none;
     }
 }
+
+@keyframes slide-right640 {
+  0% {
+    translate: -500px;
+  }
+  100% {
+    translate: none;
+  }
+}
+
 
 .slide-left {
   animation-name: slide-left;
@@ -26,6 +36,15 @@
     }
 }
 
+@keyframes slide-left640 {
+  0% {
+    translate: 500px;
+  }
+  100% {
+    translate: none;
+  }
+}
+
 .slide-right-hr {
   animation: slide-right-hr;
   animation-duration: 2200ms;
@@ -35,6 +54,15 @@
   0% {
     translate: -280px;
   } 
+  100% {
+    translate: none;
+  }
+}
+
+@keyframes slide-right-hr640 {
+  0% {
+    translate: -500px;
+  }
   100% {
     translate: none;
   }
@@ -54,6 +82,15 @@
   }
 }
 
+@keyframes slide-left-hr640 {
+  0% {
+    translate: 500px;
+  }
+  100% {
+    translate: none;
+  }
+}
+
 .open-drawer {
   animation: drawer-open;
   animation-duration: 1000ms;
@@ -65,6 +102,15 @@
   }
   100% {
     translate: none
+  }
+}
+
+@keyframes open-drawer640 {
+  0% {
+    translate: 500px;
+  }
+  100% {
+    translate: none;
   }
 }
 
@@ -80,5 +126,42 @@
   }
   100% {
     display: hidden;
+  }
+}
+
+@keyframes close-drawer640 {
+  50% {
+    translate: 500px
+  }
+  100% {
+    display: hidden;
+  }
+}
+
+
+@media (min-width: 640px) {
+  .slide-right {
+    animation-name: slide-right640;
+    animation-duration: 3000ms;
+  }
+  .slide-left {
+    animation-name: slide-left640;
+    animation-duration: 3000ms;
+  }
+  .slide-right-hr {
+    animation-name: slide-right-hr640;
+    animation-duration: 3700ms;
+  }
+  .slide-left-hr {
+    animation-name: slide-left-hr640;
+    animation-duration: 3700ms;
+  }
+  .open-drawer {
+    animation-name: open-drawer640;
+    animation-duration: 2000ms;
+  }
+  .close-drawer {
+    animation-name: close-drawer640;
+    animation-duration: 2000ms;
   }
 }
