@@ -22,15 +22,26 @@
       <h1 class="text-xl font-garamond italic sticky font-bold grow">
         <a href="/">EMMA'S PET CARE</a>
       </h1>
-      <button class="hamburger mr-4"><img src="./assets/svgs/hamburger.svg" alt=""></button>
-      <nav class="navDrawer hidden fixed top-0 right-0 w-3/5 h-screen pr-4 pt-4 bg-white">
-        <button class="exit block ml-auto"><img src="./assets/svgs/exit.svg" alt=""></button>
+      <button class="hamburger mr-4 lg:hidden"><img src="./assets/svgs/hamburger.svg" alt=""></button>
+      <nav class="navDrawer hidden fixed top-0 right-0 w-3/5 sm:w-2/5 h-screen pr-4 pt-4 bg-white">
+        <button class="exit block ml-auto lg:hidden"><img src="./assets/svgs/exit.svg" alt=""></button>
         <ul class="w-full flex flex-col items-end mt-14 pl-4">
-          <li class="text-2xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
-              href="/rates">Home</a></li>
-          <li class="text-2xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
+          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a
+              class="mr-2 h-full w-full" href="/">Home</a></li>
+          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a
+              class="mr-2 h-full w-full" href="/rates">Rates</a></li>
+          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a
+              class="mr-2 h-full w-full" href="/rates">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <nav class="bg-white hidden lg:block mr-4">
+        <ul class="flex items-center gap-4">
+          <li class="text-xl w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full" href="/">Home</a>
+          </li>
+          <li class="text-xl w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
               href="/rates">Rates</a></li>
-          <li class="text-2xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
+          <li class="text-xl w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
               href="/rates">Gallery</a></li>
         </ul>
       </nav>
@@ -46,51 +57,39 @@
 
   <section class="flex flex-col">
 
-    <div class="bg-sabo-image bg-top bg-cover pb-10">
-      <h3 class="text-white text-2xl font-girassol ml-4 mt-4">What I Do</h3>
-      <div class="bg-secondaryColor h-[10px] w-3/4 flex items-center mt-4 ml-4">
+    <div class="bg-sabo-image xl:bg-dogImage1280 bg-top bg-cover pb-10 xl:bg-center">
+      <h3 class="text-white text-2xl lg:text-3xl font-girassol ml-4 mt-4">What I Do</h3>
+      <div class="bg-secondaryColor h-[10px] w-3/4 lg:w-2/5 flex items-center mt-4 ml-4">
       </div>
-      <p class="text-[16px] sm:text-[22px] w-3/4 my-4 ml-4 font-kalam text-white tracking-widest">
-        As a college student passionate about helping the dog community, I offer
-        a caring and practical dog washing service tailored for busy pet owners.
-        While I'm not a licensed groomer, I specialize in maintaining your dog’s
-        cleanliness and comfort, especially when you're waiting for a
-        professional haircut appointment. I provide convenient pickup and
-        drop-off services to accommodate your schedule, ensuring a hassle-free
-        experience for both you and your pet. Let me help keep your furry friend
-        happy and clean!
+      <p class="text-[16px] sm:text-[22px] w-3/4 lg:w-2/5 my-4 ml-4 font-kalam text-white tracking-widest">
+        As a dedicated college student with a passion for helping the dog community, I offer support to pet owners in need of extra assistance with their dogs. While I am not a licensed groomer, my goal is to provide interim maintenance for your dog, ensuring they are well-cared for while awaiting their next professional grooming session. I understand the importance of regular care and attention for your furry friends and strive to make this period as comfortable as possible for both you and your pet. By entrusting me with your dog's care, you can be assured they are in good hands until their next haircut.
       </p>
-      <div class="bg-secondaryColor h-[10px] w-3/4 flex items-center ml-4">
+      <div class="bg-secondaryColor h-[10px] w-3/4 lg:w-2/5 flex items-center ml-4">
       </div>
 
   </section>
 
   <hr class="w-full bg-primaryColor h-4 border-none">
 
-  <section class="flex flex-col">
-
-    <div class="pt-6 flex pl-4 flex-col items-center sm:items-start relative bg-accentColor">
-      <h3 class="text-2xl sm:text-4xl font-girassol mt-4 sm:mb-2">About Me</h3>
+  <section class="pt-6 lg:mb-10 flex pl-4 items-center sm:items-start relative bg-white">
+    <div class="flex flex-col items-center w-full sm:items-start mx-1">
+      <h3 class="text-2xl sm:text-4xl font-girassol mt-4 lg:mt-0 sm:mb-2">About Me</h3>
       <hr class="bg-secondaryColor w-1/3 h-1 border-none mb-4">
-      <p class="fontOutline text-[14px] sm:text-[20px] w-[315px] sm:w-full mb-4 mr-4 text-center sm:text-left font-poetsen tracking-widest">
-        As a college student passionate about helping the dog community, I offer
-        a caring and practical dog washing service tailored for busy pet owners.
-        While I'm not a licensed groomer, I specialize in maintaining your dog’s
-        cleanliness and comfort, especially when you're waiting for a
-        professional haircut appointment. I provide convenient pickup and
-        drop-off services to accommodate your schedule, ensuring a hassle-free
-        experience for both you and your pet. Let me help keep your furry friend
-        happy and clean!
+      <p
+        class="fontOutline text-[14px] sm:text-[20px] lg:text-[20px] w-[315px] lg:w-4/5 sm:w-full mr-4 text-center sm:text-left font-poetsen tracking-widest">
+        Hello there! I'm a college student with a big heart for both learning and giving back to my community. My passion lies in helping dogs, where I'm constantly learning about their hair textures, grooming techniques, and overall maintenance. While I'm not licensed yet, I'm actively practicing and eager to grow in this rewarding field. Join me on this journey of compassion and skill development!
       </p>
-      
+    </div>
+    <img class="h-[22rem] w-auto mr-20 hidden lg:block" src="./assets/largedog.jpg" alt="">
   </section>
 
-  <img class="" src="./assets/banner.jpg" alt="">
+  <!-- <img class="lg:mx-auto bg-accentColor lg:px-40" src="./assets/banner.jpg" alt=""> -->
 
-  <article class="mx-auto p-10 flex flex-col gap-4 bg-accentColor">
 
-    <div class="collapse rounded-md collapse-arrow bg-accentColor border-[1px] border-black">
-      <input type="checkbox" name="my-accordion-1" />
+  <article class="pb-6 px-10 sm:px-20 flex flex-col gap-4 bg-white">
+    <img class="inline lg:hidden" src="./assets/largedog.jpg" alt="">
+    <div class="collapse rounded-md collapse-arrow bg-white border-[1px] border-slate-400">
+      <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl sm:text-2xl font-medium">
         Do you offer nail trimmings?
       </div>
@@ -99,8 +98,8 @@
       </div>
     </div>
 
-    <div class="collapse rounded-md collapse-arrow bg-accentColor border-[1px] border-black">
-      <input type="checkbox" name="my-accordion-1" />
+    <div class="collapse rounded-md collapse-arrow bg-white border-[1px] border-slate-400">
+      <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl sm:text-2xl font-medium">
         Click to open this one and close others
       </div>
@@ -109,8 +108,8 @@
       </div>
     </div>
 
-    <div class="collapse rounded-md collapse-arrow bg-accentColor border-[1px] border-black">
-      <input type="checkbox" name="my-accordion-1" />
+    <div class="collapse rounded-md collapse-arrow bg-white border-[1px] border-slate-400">
+      <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl sm:text-2xl font-medium">
         If my dog is reactive, will you still bathe him?
       </div>
@@ -119,8 +118,8 @@
       </div>
     </div>
 
-    <div class="collapse rounded-md collapse-arrow bg-accentColor border-[1px] border-black">
-      <input type="checkbox" name="my-accordion-1" />
+    <div class="collapse rounded-md collapse-arrow bg-white border-[1px] border-slate-400">
+      <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl sm:text-2xl font-medium">
         Click to open this one and close others
       </div>
@@ -128,8 +127,18 @@
         <p>hello</p>
       </div>
     </div>
-    
+
   </article>
+
+  <img class="mx-auto h-28 sm:h-40 w-auto translate-y-6 sm:translate-y-8" src="./assets/bannerWhite.jpg" alt="">
+
+  <footer class="bg-accentColor h-[100px] flex items-center justify-evenly sticky p-20">
+    <div class="flex flex-col">
+      <p class="text-xl sm:text-2xl font-dosis">956-708-3099</p>
+      <p class="text-2xl sm:text-3xl font-dosis">e.gabrielaa10@gmail.com</p>
+    </div>
+    <img class="h-12 w-auto sm:h-16" src="./assets/svgs/instagram.svg" alt="">
+  </footer>
 
   <script src="./scripts/index.js"></script>
 </body>

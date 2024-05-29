@@ -29,5 +29,5 @@ exit.addEventListener("click", () => {
     body.classList.remove('overflow-hidden')
     html.classList.remove('overflow-hidden')
 
-  }, 1000);
+  }, 500);
 });

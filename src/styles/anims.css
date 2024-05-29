@@ -116,7 +116,7 @@
 
 .close-drawer {
   animation: drawer-close;
-  animation-duration: 2000ms;
+  animation-duration: 1500ms;
   
 }
 
@@ -142,26 +142,26 @@
 @media (min-width: 640px) {
   .slide-right {
     animation-name: slide-right640;
-    animation-duration: 3000ms;
+    animation-duration: 2000ms;
   }
   .slide-left {
     animation-name: slide-left640;
-    animation-duration: 3000ms;
+    animation-duration: 2000ms;
   }
   .slide-right-hr {
     animation-name: slide-right-hr640;
-    animation-duration: 3700ms;
+    animation-duration: 2700ms;
   }
   .slide-left-hr {
     animation-name: slide-left-hr640;
-    animation-duration: 3700ms;
+    animation-duration: 2700ms;
   }
   .open-drawer {
     animation-name: open-drawer640;
-    animation-duration: 2000ms;
+    animation-duration: 1500ms;
   }
   .close-drawer {
     animation-name: close-drawer640;
-    animation-duration: 2000ms;
+    animation-duration: 1500ms;
   }
 }

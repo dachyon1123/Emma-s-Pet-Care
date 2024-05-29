@@ -23,6 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         "sabo-image": "url('./assets/dogphoto.jpg')",
+        "dogImage1280": "url('./assets/dogphoto1280.jpg')"
       },
     },
   },
