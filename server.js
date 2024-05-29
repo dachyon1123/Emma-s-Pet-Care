@@ -14,9 +14,6 @@ app.get('/rates', (req, res) => {
   res.sendFile(path.join(__dirname, 'src', 'pages', 'rates.html'))
 })
 
-app.get('/faq', (req, res) => {
-  res.sendFile(path.join(__dirname, 'src', 'pages', 'faq.html'))
-})
 
 app.listen(process.env.PORT, () => {
   console.log(`Server connected at port ${process.env.PORT}`)
