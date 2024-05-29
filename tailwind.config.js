@@ -25,6 +25,9 @@ module.exports = {
         "sabo-image": "url('./assets/dogphoto.jpg')",
         "dogImage1280": "url('./assets/dogphoto1280.jpg')"
       },
+      boxShadow: {
+        'screen': '0 0 0 10000px rgba(0,0,0,.50)'
+      }
     },
   },
   plugins: [

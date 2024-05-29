@@ -1,99 +1,6 @@
-.slide-right {
-  animation-name: slide-right;
-  animation-duration: 1500ms;
-}
-
-@keyframes slide-right {
-    0% {
-      translate: -280px;
-    }
-    100% {
-      translate: none;
-    }
-}
-
-@keyframes slide-right640 {
-  0% {
-    translate: -500px;
-  }
-  100% {
-    translate: none;
-  }
-}
-
-
-.slide-left {
-  animation-name: slide-left;
-  animation-duration: 1500ms;
-}
-
-@keyframes slide-left {
-    0% {
-      translate: 280px
-    }
-    100% {
-      translate: none;
-    }
-}
-
-@keyframes slide-left640 {
-  0% {
-    translate: 500px;
-  }
-  100% {
-    translate: none;
-  }
-}
-
-.slide-right-hr {
-  animation: slide-right-hr;
-  animation-duration: 2200ms;
-}
-
-@keyframes slide-right-hr {
-  0% {
-    translate: -280px;
-  } 
-  100% {
-    translate: none;
-  }
-}
-
-@keyframes slide-right-hr640 {
-  0% {
-    translate: -500px;
-  }
-  100% {
-    translate: none;
-  }
-}
-
-.slide-left-hr {
-  animation: slide-left-hr;
-  animation-duration: 2200ms;
-}
-
-@keyframes slide-left-hr {
-  0% {
-    translate: 280px;
-  } 
-  100% {
-    translate: none;
-  }
-}
-
-@keyframes slide-left-hr640 {
-  0% {
-    translate: 500px;
-  }
-  100% {
-    translate: none;
-  }
-}
-
 .open-drawer {
   animation: drawer-open;
-  animation-duration: 1000ms;
+  animation-duration: 500ms;
 }
 
 @keyframes drawer-open {
@@ -116,7 +23,7 @@
 
 .close-drawer {
   animation: drawer-close;
-  animation-duration: 1500ms;
+  animation-duration: 500ms;
   
 }
 
@@ -140,28 +47,12 @@
 
 
 @media (min-width: 640px) {
-  .slide-right {
-    animation-name: slide-right640;
-    animation-duration: 2000ms;
-  }
-  .slide-left {
-    animation-name: slide-left640;
-    animation-duration: 2000ms;
-  }
-  .slide-right-hr {
-    animation-name: slide-right-hr640;
-    animation-duration: 2700ms;
-  }
-  .slide-left-hr {
-    animation-name: slide-left-hr640;
-    animation-duration: 2700ms;
-  }
   .open-drawer {
     animation-name: open-drawer640;
-    animation-duration: 1500ms;
+    animation-duration: 500ms;
   }
   .close-drawer {
     animation-name: close-drawer640;
-    animation-duration: 1500ms;
+    animation-duration: 500ms;
   }
 }

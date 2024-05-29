@@ -26,33 +26,34 @@
       <nav class="navDrawer hidden fixed top-0 right-0 w-3/5 sm:w-2/5 h-screen pr-4 pt-4 bg-white">
         <button class="exit block ml-auto lg:hidden"><img src="./assets/svgs/exit.svg" alt=""></button>
         <ul class="w-full flex flex-col items-end mt-14 pl-4">
-          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a
+          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-zinc-700 hover:text-white py-2 mr-1 rounded-l-xl"><a
               class="mr-2 h-full w-full" href="/">Home</a></li>
-          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a
+          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-zinc-700 hover:text-white py-2 mr-1 rounded-l-xl"><a
               class="mr-2 h-full w-full" href="/rates">Rates</a></li>
-          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-slate-100 rounded-l-xl"><a
+          <li class="text-2xl sm:text-3xl text-right mt-4 w-full hover:bg-zinc-700 hover:text-white py-2 mr-1 rounded-l-xl"><a
               class="mr-2 h-full w-full" href="/rates">Gallery</a></li>
         </ul>
       </nav>
 
       <nav class="bg-white hidden lg:block mr-4">
         <ul class="flex items-center gap-4">
-          <li class="text-xl w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full" href="/">Home</a>
-          </li>
-          <li class="text-xl w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
-              href="/rates">Rates</a></li>
-          <li class="text-xl w-full hover:bg-slate-100 rounded-l-xl"><a class="mr-2 h-full w-full"
-              href="/rates">Gallery</a></li>
+          <li class="text-xl hover:bg-zinc-700 hover:text-white text-center rounded-md"><a class="h-full w-full px-4" href="/">Home</a></li>
+          <li class="text-xl hover:bg-zinc-700 hover:text-white text-center rounded-md"><a class="h-full w-full px-4" href="/rates">Rates</a></li>
+          <li class="text-xl hover:bg-zinc-700 hover:text-white text-center rounded-md"><a class="h-full w-full px-4" href="/rates">Gallery</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="flex flex-col items-center justify-center gap-2 h-[200px] bg-accentColor pt-20 relative overflow-x-hidden">
-    <h2 class="slide-right font-girassol text-2xl absolute bottom-[70px]">Clean Dogs</h2>
-    <hr class="slide-right-hr h-[2px] w-[40%] sm:w-[25%] bg-black border-black absolute bottom-[65px]">
-    <h2 class="slide-left font-girassol text-2xl absolute bottom-[25px]">Clean Care</h2>
-    <hr class="slide-left-hr h-[2px] w-1/2 sm:w-[30%] bg-black border-black absolute bottom-[20px]">
+  <section class="flex flex-col items-center justify-center gap-2 h-[170px] sm:h-[180px] lg:h-[200px] bg-accentColor pt-20">
+    <div class="flex flex-row items-center gap-2">
+      <h2 class="font-girassol text-2xl sm:text-3xl bottom-[70px] mr-14">Clean Dogs</h2>
+      <!-- <div class="h-[2px] w-[50px] bg-black"></div> -->
+    </div>
+    <div class="flex flex-row items-center gap-2">
+      <!-- <div class="h-[2px] w-[50px] bg-black"></div> -->
+      <h2 class="font-girassol text-2xl sm:text-3xl bottom-[70px] ml-14">Clean Care</h2>
+    </div>
   </section>
 
   <section class="flex flex-col">
@@ -76,17 +77,17 @@
       <h3 class="text-2xl sm:text-4xl font-girassol mt-4 lg:mt-0 sm:mb-2">About Me</h3>
       <hr class="bg-secondaryColor w-1/3 h-1 border-none mb-4">
       <p
-        class="fontOutline text-[14px] sm:text-[20px] lg:text-[20px] w-[315px] lg:w-4/5 sm:w-full mr-4 text-center sm:text-left font-poetsen tracking-widest">
-        Hello there! I'm a college student with a big heart for both learning and giving back to my community. My passion lies in helping dogs, where I'm constantly learning about their hair textures, grooming techniques, and overall maintenance. While I'm not licensed yet, I'm actively practicing and eager to grow in this rewarding field. Join me on this journey of compassion and skill development!
+        class="fontOutline text-[14px] sm:text-[20px] lg:text-[20px] w-[315px] sm:w-full xl:w-5/6 mr-4 text-center sm:text-left font-poetsen tracking-widest">
+        Hello there! With a big heart for both learning and giving back to my community, my passion lies in helping dogs. I'm constantly learning about their hair textures, grooming techniques, and overall maintenance. While I'm not licensed yet, my goal is to provide interim maintenance for your dog, ensuring they are well-cared for while awaiting their next professional grooming session. I understand the importance of regular care and attention for your furry friends and strive to make this period as comfortable as possible for both you and your pet. By entrusting me with your dog's care, you can be assured they are in good hands until their next haircut. Join me on this journey of compassion and skill development!
       </p>
     </div>
-    <img class="h-[22rem] w-auto mr-20 hidden lg:block" src="./assets/largedog.jpg" alt="">
+    <img class="h-[22rem] lg:h-[24rem] w-auto mr-20 lg:mr-32 hidden lg:block" src="./assets/largedog.jpg" alt="">
   </section>
 
   <!-- <img class="lg:mx-auto bg-accentColor lg:px-40" src="./assets/banner.jpg" alt=""> -->
 
 
-  <article class="pb-6 px-10 sm:px-20 flex flex-col gap-4 bg-white">
+  <article class="pb-6 px-10 sm:px-20 xl:px-56 flex flex-col gap-4 bg-white">
     <img class="inline lg:hidden" src="./assets/largedog.jpg" alt="">
     <div class="collapse rounded-md collapse-arrow bg-white border-[1px] border-slate-400">
       <input type="radio" name="my-accordion-1" />
@@ -101,10 +102,10 @@
     <div class="collapse rounded-md collapse-arrow bg-white border-[1px] border-slate-400">
       <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl sm:text-2xl font-medium">
-        Click to open this one and close others
+        Do you ever take my dogs off premises for any reason?
       </div>
       <div class="collapse-content sm:text-xl">
-        <p>hello</p>
+        <p>Your dog will never leave the premesis of the wash unless I am picking up and dropping off. When picking up and dropping off, I take them straight from the pick-up location straight to the wash, and then straight from the wash to the requested drop-off locaiton.</p>
       </div>
     </div>
 
@@ -132,10 +133,10 @@
 
   <img class="mx-auto h-28 sm:h-40 w-auto translate-y-6 sm:translate-y-8" src="./assets/bannerWhite.jpg" alt="">
 
-  <footer class="bg-accentColor h-[100px] flex items-center justify-evenly sticky p-20">
+  <footer class="bg-accentColor h-[100px] flex items-center justify-evenly sticky py-20">
     <div class="flex flex-col">
-      <p class="text-xl sm:text-2xl font-dosis">956-708-3099</p>
-      <p class="text-2xl sm:text-3xl font-dosis">e.gabrielaa10@gmail.com</p>
+      <p class="text-xl sm:text-3xl font-girassol">e.gabrielaa10@gmail.com</p>
+      <p class="text-xl sm:text-2xl font-girassol">956-708-3099</p>
     </div>
     <img class="h-12 w-auto sm:h-16" src="./assets/svgs/instagram.svg" alt="">
   </footer>

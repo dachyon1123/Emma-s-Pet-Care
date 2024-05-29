@@ -10,6 +10,7 @@ hamburger.addEventListener("click", () => {
     navDrawer.classList.remove("hidden");
     navDrawer.classList.remove("close-drawer");
     navDrawer.classList.add("open-drawer");
+    navDrawer.classList.add("shadow-screen");
     body.classList.add('overflow-hidden')
     html.classList.add('overflow-hidden')
 
@@ -21,7 +22,8 @@ hamburger.addEventListener("click", () => {
 });
 
 exit.addEventListener("click", () => {
-    navDrawer.classList.remove('open-drawer')
+  navDrawer.classList.remove('open-drawer')
+  navDrawer.classList.remove('shadow-screen');
   navDrawer.classList.add("close-drawer");
   setTimeout(() => {
     navDrawer.classList.add("hidden");
@@ -29,5 +31,5 @@ exit.addEventListener("click", () => {
     body.classList.remove('overflow-hidden')
     html.classList.remove('overflow-hidden')
 
-  }, 500);
+  }, 200);
 });
